@@ -10,6 +10,7 @@ import yaml
 
 class Database(object):
 
+    NOT_A_MODEL = ["physiboss-models", "physiboss-models.github.io", "adminbot", ".github"]
     def __init__(self):
         self._github = Github(per_page=100)
         self._organisation = self._github.get_organization("PhysiBoSS-Models")
@@ -29,7 +30,7 @@ class Database(object):
             page = repos.get_page(i)
             r += page
             
-        return {repo.name:repo for repo in r if repo.name[0].isupper()}        
+        return {repo.name:repo for repo in r if repo.name not in self.NOT_A_MODEL}        
 
     def _list_versions(self):
         vs = {}
