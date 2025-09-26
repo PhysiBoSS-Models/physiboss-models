@@ -10,4 +10,10 @@ authors = [
   {name = "Vincent Noël", email = "vincent.noel@curie.fr"},
 ]
 description = "Library for using PhysiBoSS-Models"
+readme = "README.md"
 license = "MIT"
+
+[project.urls]
+Homepage = "https://github.com/PhysiBoSS/PhysiBoSS-Models"
+Repository = "https://github.com/PhysiBoSS/PhysiBoSS-Models"
+Issues = "https://github.com/PhysiBoSS/PhysiBoSS-Models/issues"
