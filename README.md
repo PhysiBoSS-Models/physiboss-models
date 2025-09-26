@@ -1,4 +1,6 @@
-# physiboss-models
+# physiboss-models 
+[![PyPI version](https://badge.fury.io/py/physiboss-models.svg)](https://badge.fury.io/py/physiboss-models)
+
 
 ![PhysiBoSS logo](https://avatars.githubusercontent.com/u/179001945?s=400&u=02c8638da9de9d9cd68820187adbfcb45c9d8007&v=4)
 
