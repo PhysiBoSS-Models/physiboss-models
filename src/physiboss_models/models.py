@@ -55,7 +55,7 @@ class Database(object):
         return list(self._models.keys())
 
     def search(self, name):
-        return [model for model in self._models.keys() if name in model]
+        return [model for model in self._models.keys() if name.lower() in model.lower()]
 
     def versions(self, model):
         if model in self._models.keys():
