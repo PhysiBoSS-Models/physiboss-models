@@ -39,7 +39,7 @@ versions = db.versions(model)
 db.download_model(model, path, version)
 ```
 
-This will download a model (pre-compiled binary, config files) into the informed path. You can inform a version, if you don't it will dowload the latest one.
+This will download a model (pre-compiled binary, config files) into the informed path. You can soecify a version, if you don't it will download the latest one.
 
 Once loaded, you can access the model metadata with 
 ```
